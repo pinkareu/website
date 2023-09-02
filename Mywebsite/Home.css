@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+
+.home-banner{
+    background-color: #57544f;
+    background-image: url("images/aboutbanner.jpg");
+    color: white;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;   
+    background-blend-mode: multiply;
+
+    height: 100px;
+}
+
+.my-name{
+    position:absolute;
+    font-size: 80px;
+    padding-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    bottom: 250px;
+}
+
+
+button{
+    
+    color: white;
+    background-color: transparent;
+
+    height: 36px;
+    vertical-align: top;
+    
+    font-family: "Roboto";
+    letter-spacing: 0.05em;
+    font-weight: 1000;
+
+    padding-top: 12px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    
+    border-width: 1px;
+    border-color: white;
+    border-style:solid;
+
+    transition-duration:300ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: opacity;
+
+    cursor: pointer;
+}
+
+.Home-button{
+    position:absolute;
+    top: 10px;
+    left: 1000px;
+}
+.me-button{
+    position:absolute;
+    top: 10px;
+    left: 1100px;
+    border-color: transparent;
+}
+
+.work-button{
+    position:absolute;
+    top: 10px;
+    left: 1233px;
+    border-color: transparent;
+}
+.contact-button{
+    position:absolute;
+    top: 10px;
+    left: 1360px;
+    border-color: transparent;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+.selfie{
+    position:absolute;
+    left: 200px;
+    top: 750px;
+    padding-bottom: 100px;
+}
+
+.subtitle{
+    position: absolute;
+    left: 900px; 
+    top: 800px;
+    font-size: 45px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Mystery Quest', cursive;
+}
+.text{
+    position: absolute;
+    left: 850px; 
+    top: 1000px;
+    width: 400px;
+    text-align: center;
+}
+
+.learn{
+    position: absolute;
+    color: white;
+    left: 980px; 
+    top: 1200px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+
+}
+
+.learn:hover{
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+

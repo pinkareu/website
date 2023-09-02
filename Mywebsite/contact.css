@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+.banner{
+    background-color: #57544f;
+    background-image: url("images/aboutbanner.jpg");
+    color: white;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;   
+    background-blend-mode: multiply;
+
+    height: 100px;
+}
+
+button{
+    
+    color: white;
+    background-color: transparent;
+
+    height: 36px;
+    vertical-align: top;
+    
+    font-family: "Roboto";
+    letter-spacing: 0.05em;
+    font-weight: 1000;
+
+    padding-top: 12px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    
+    border-width: 1px;
+    border-color: white;
+    border-style:solid;
+
+    transition-duration:300ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: opacity;
+
+    cursor: pointer;
+}
+
+.Home-button{
+    position:absolute;
+    top: 10px;
+    left: 1000px;
+    border-color: transparent;
+}
+.me-button{
+    position:absolute;
+    top: 10px;
+    left: 1100px;
+    border-color: transparent;
+}
+
+.work-button{
+    position:absolute;
+    top: 10px;
+    left: 1233px;
+    border-color: transparent;
+}
+.contact-button{
+    position:absolute;
+    top: 10px;
+    left: 1360px;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+.Title{
+    position:absolute;
+    top: 50px;
+    left: 650px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.phone{
+    position:absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.number{
+    position:absolute;
+    top: 175px;
+    left: 700px;
+    font-size: 30px;
+}
+
+.mail{
+    position:absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.email{
+    position:absolute;
+    top: 275px;
+    left: 700px;
+    font-size: 30px;
+}
+
+.info{
+    position:absolute;
+    left: 700px;
+    top: 400px;
+
+}

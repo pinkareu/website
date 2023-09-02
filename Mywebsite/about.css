@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+}
+.about-banner{
+    background-color: #57544f;
+    background-image: url("images/aboutbanner.jpg");
+    color: white;
+    background-size: cover;
+    padding-top: 50px;  
+    background-blend-mode: multiply;
+
+    height: 20px;
+}
+
+button{
+    
+    color: white;
+    background-color: transparent;
+
+    height: 36px;
+    vertical-align: top;
+    
+    font-family: "Roboto";
+    letter-spacing: 0.05em;
+    font-weight: 1000;
+
+    padding-top: 12px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    
+    border-width: 1px;
+    border-color: white;
+    border-style:solid;
+
+    transition-duration:300ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: opacity;
+
+    cursor: pointer;
+}
+
+.Home-button{
+    position:absolute;
+    top: 10px;
+    left: 1000px;
+    border-color: transparent;
+}
+.me-button{
+    position:absolute;
+    top: 10px;
+    left: 1100px;  
+}
+
+.work-button{
+    position:absolute;
+    top: 10px;
+    left: 1233px;
+    border-color: transparent;
+}
+.contact-button{
+    position:absolute;
+    top: 10px;
+    left: 1360px;
+    border-color: transparent;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(7, 7, 143);
+
+}
+
+.summary{
+    position:absolute;
+    left:150px;
+    top:200px;
+}
+
+.education{
+    position:absolute;
+    left:150px;
+    top:330px;
+}
+
+.ed-school{
+    position:absolute;
+    left:150px;
+    top:400px;
+}
+.ed-year{
+    position:absolute;
+    left:1100px;
+    top:430px;
+}
+
+.ed-city{
+    position:absolute;
+    left:1200px;
+    top:400px;
+}
+
+.ex-location{
+    position:absolute;
+    left:150px;
+    top:830px;
+}
+
+.ex-pos{
+    position:absolute;
+    left:150px;
+    top:860px;
+}
+
+.ex-date{
+    position:absolute;
+    left:1140px;
+    top:860px;
+
+}
+
+.ex-city{
+    position:absolute;
+    left:1200px;
+    top:830px;
+}
+
+
+.skills{
+    position:absolute;
+    left:150px;
+    top: 570px;
+}
+
+.experience{
+    position:absolute;
+    left:150px;
+    top: 750px;
+}
+
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height:1px;
+    border-top: 5px solid #0d0d0d;
+  }
+
+.summaryline{
+    position:absolute;
+    top: 260px;
+    left: 150px;
+}
+
+.educationline{
+    position:absolute;
+    top: 390px;
+    left:150px;
+}
+
+.skill-line{
+    position:absolute;
+    top: 630px;
+    left:150px;
+}
+
+.experience-line{
+    position:absolute;
+    top: 810px;
+    left:150px;
+}
+
+.summary-text{
+    position:absolute;
+    left:160px;
+    top: 270px;
+    width: 1200px;
+    font-size: 20px;
+}
+
+.education-points{
+    position:absolute;
+    left:160px;
+    top: 460px;
+}
+
+li{
+    width: 1200px;
+    font-size: 20px;
+}
+
+.skill-points{
+    position:absolute;
+    left:160px;
+    top: 650px;
+}
+
+.work{
+    position:absolute;
+    left:160px;
+    top: 900px;
+    padding-bottom: 50px;
+}
